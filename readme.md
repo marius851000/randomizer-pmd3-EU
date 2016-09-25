@@ -9,6 +9,7 @@ Ce logiciel, en réalité une compilation de logiciel et de script, permet deux 
 ##2. Comment utiliser ce logiciel ?##
 
 ###1. Export de rom random US à version EU###
+
 Pour exporter une rom US randomizer à une rom EU normal, il vous faut:
 * Ce logiciel
 * Une rom EU vierge
@@ -22,6 +23,7 @@ Pour exporter une rom US randomizer à une rom EU normal, il vous faut:
 ###2. Randomization des sprites, portraits et musiques###
 
 Pour randomizer les sprites, portraits et musiques, il vous faut:
+
 * Ce logiciel
 * Une rom EU, randomizer ou non
 * Python 3.1
@@ -33,6 +35,7 @@ Pour randomizer les sprites, portraits et musiques, il vous faut:
 ###3. Compilation du 2.1 et 2.2###
 
 Pour transferer un random d'une rom **US** et la transferer vers un random **EU** ( ou randomizer les donjon et les stats ), puis randomizer les sprites, portraits et musiques de l'overworld d'un seul coup, il vous faut.
+
 * Ce logiciel
 * Une rom EU vierge*
 * Une rom US, randomizer ou non
@@ -40,7 +43,9 @@ Pour transferer un random d'une rom **US** et la transferer vers un random **EU*
 
 1. faire les trois premiére étape du 2.1.
 2. Executer "a US - EU + ran.bat" et vous obtiendrez la rom **EU** randomizer sous le nom de "pmd-random.nds".
+
 ##3 Modifier le fichier ran.txt##
+
 "ran.txt" est le fichier qui permet de définir comment son randomizer les portraits, sprites et musique de l'overworld.
 Il se compose comme un fichier ".txt" normal, pouvant être ouvert avec le bloc-note, Wordpad ou autre.
 
