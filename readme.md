@@ -72,7 +72,7 @@ Les commande peuvent être entrer dans le fichier "ran.txt", mais le fichier doi
 
 liste des différente commande :
 
--musicf:Randomize les musique du jeu. **Attention, fonctionnalité béta, peut faire crasher le jeu peut aprés le premier donjon.
--portrait:Randomize les portraits de maniére indépandante des sprites.
--spritepkmn:Randomize les sprites de maniére indépandante des portraits.
--overworld:Randomize les portraits et les sprites de maniére ordonner : sprites de pikachu = portraits de pikachu. **WIP, actuellement, peu de pokémon sont compatible avec cette fonction, les autres seront randomizer de maniére indépandante.
+* musicf:Randomize les musique du jeu. **Attention, fonctionnalité béta, peut faire crasher le jeu peut aprés le premier donjon**.
+* portrait:Randomize les portraits de maniére indépandante des sprites.
+* spritepkmn:Randomize les sprites de maniére indépandante des portraits.
+* overworld:Randomize les portraits et les sprites de maniére ordonner : sprites de pikachu = portraits de pikachu. **WIP, actuellement, peu de pokémon sont compatible avec cette fonction, les autres seront randomizer de maniére indépandante**.
