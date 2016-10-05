@@ -42,7 +42,8 @@ Pour transferer un random d'une rom **US** et la transferer vers un random **EU*
 * Python 3.1
 
 1. faire les trois premiére étape du 2.1.
-2. Executer "a US - EU + ran.bat" et vous obtiendrez la rom **EU** randomizer sous le nom de "pmd-random.nds".
+2. Editez le fichier "ran.txt" selon vos besoins, voir le grand 3.
+3. Executer "a US - EU + ran.bat" et vous obtiendrez la rom **EU** randomizer sous le nom de "pmd-random.nds".
 
 ##3 Modifier le fichier ran.txt##
 
