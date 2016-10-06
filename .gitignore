@@ -5,7 +5,8 @@ ppmd_statsutil.*
 
 filecopilpythonfilecomforextract.bin
 
-*temp.py
+*temp.*
+*temp/
 
 ran/rom/
 ran/portraits/
