@@ -1,3 +1,8 @@
+rmdir /Q /S "./romus"
+rmdir /Q /S "./rom"
+rmdir /Q /S "./m_go"
+rmdir /Q /S "./portraits"
+rmdir /Q /S "./porrandom"
 
 del "rom"
 mkdir "rom"

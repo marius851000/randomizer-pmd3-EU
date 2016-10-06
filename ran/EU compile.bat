@@ -1,3 +1,5 @@
+clean.bat
+
 call ppmd_kaoutil.exe "portraits" "rom/data/FONT/kaomado.kao"
 
 ppmd_packfileutil.exe "rom/data/MONSTER/m_ground"
