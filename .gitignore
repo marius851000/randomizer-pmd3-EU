@@ -7,9 +7,10 @@ filecopilpythonfilecomforextract.bin
 
 *temp.py
 
-rom/
-portraits/
-porrandom/
-m_go/
+ran/rom/
+ran/portraits/
+ran/porrandom/
+ran/m_go/
+ran/romus/
 
 log.txt

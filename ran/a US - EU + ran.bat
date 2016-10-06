@@ -23,5 +23,18 @@ copy "romus\data\BALANCE\mappa_s.bin" "rom\data\BALANCE\mappa_s.bin"
 copy "romus\data\BALANCE\mappa_t.bin" "rom\data\BALANCE\mappa_t.bin"
 copy "romus\data\BALANCE\mappa_y.bin" "rom\data\BALANCE\mappa_y.bin"
 
+echo "fichier de random copier, debut de la decompilation de la rom EU"
+mkdir "portraits"
+ppmd_kaoutil.exe "./rom/data/FONT/kaomado.kao" "./portraits"
+ppmd_packfileutil.exe "rom/data/MONSTER/m_ground.bin"
+
+echo "fichier extrait"
+
+randomizer.py
+
+call ppmd_kaoutil.exe "portraits" "rom/data/FONT/kaomado.kao"
+
+ppmd_packfileutil.exe "rom/data/MONSTER/m_ground"
+
 del "rom.nds"
 ndstool.exe -c "pmd-random.nds" -9 "rom/arm9.bin" -7 "rom/arm7.bin" -y9 "rom/y9.bin" -y7 "rom/y7.bin" -d "rom/data" -y "rom/overlay" -t "rom/banner.bin" -h "rom/header.bin"

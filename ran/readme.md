@@ -15,10 +15,10 @@ Pour exporter une rom US randomizer à une rom EU normal, il vous faut:
 * Une rom EU vierge
 * Une rom US, randomizer ou non
 
-1. Si votre rom **US** est déja randomizer, aller à la partie 2. Si votre rom n'est pas randomizer, aller dans le dossier "mdrngzer 0.10.0", executer "mdrngzer.exe", une fois ouvert, selectionner une rom **US** et paramétrer votre random avec le logiciel. Ensuite, valider et enregistrer votre rom dans le dossier "ran" de la compilation, sous le nom de "rom-US.nds", et aller à la partie 3.
-2. Si vous n'avez pas compilez la rom en suivant l'étape 1, copier-coller votre rom **US** dans le dossier "ran" de la compilation. 
-3. Copier-coller votre rom **EU** dans le dossier "ran" sous le nom de "rom-EU.nds".
-4. executer le fichier "a US - EU.bat" et, quand la fenetre de la console se sera fermer, vous obtiendrez le fichier randomizer sous le nom de "pmd-random.nds", dans le dossier "ran".
+1. Si votre rom **US** est déja randomizer, aller à la partie 2. Si votre rom n'est pas randomizer, aller dans le dossier "mdrngzer 0.10.0", executer "mdrngzer.exe", une fois ouvert, selectionner une rom **US** et paramétrer votre random avec le logiciel. Ensuite, valider et enregistrer votre rom dans le dossier principal de la compilation, sous le nom de "rom-US.nds", et aller à la partie 3.
+2. Si vous n'avez pas compilez la rom en suivant l'étape 1, copier-coller votre rom **US** dans le dossier principal de la compilation. 
+3. Copier-coller votre rom **EU** dans le dossier principal sous le nom de "rom-EU.nds".
+4. executer le fichier "a US - EU.bat" et, quand la fenetre de la console se sera fermer, vous obtiendrez le fichier randomizer sous le nom de "pmd-random.nds".
 
 ###2. Randomization des sprites, portraits et musiques###
 
@@ -28,7 +28,7 @@ Pour randomizer les sprites, portraits et musiques, il vous faut:
 * Une rom EU, randomizer ou non
 * Python 3.1
 
-1. Copier-coller votre rom EU dans le dossier "ran" de la compilation sous le nom de "rom-EU.nds".
+1. Copier-coller votre rom EU dans le dossier principal de la compilation sous le nom de "rom-EU.nds".
 2. Editez le fichier "ran.txt" selon vos besoins, voir le grand 3.
 3. Executer le fichier "EU ran.bat" et vous obtiendrez le fichier randomizer sous le nom de "pmd-random.nds".
 
@@ -51,7 +51,6 @@ Pour transferer un random d'une rom **US** et la transferer vers un random **EU*
 Il se compose comme un fichier ".txt" normal, pouvant être ouvert avec le bloc-note, Wordpad ou autre.
 
 Il se compose telle-quel :
-
 'bienvenue dans ce programme d'exemple
 spritepkmn
 portrait
