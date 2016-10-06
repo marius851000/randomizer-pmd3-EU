@@ -1,0 +1,15 @@
+*.nds
+
+ppmd_statsutil.*
+*.xml
+
+filecopilpythonfilecomforextract.bin
+
+*temp.py
+
+rom/
+portraits/
+porrandom/
+m_go/
+
+log.txt

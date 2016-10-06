@@ -161,9 +161,24 @@ def overworld():
         if os.path.isfile(rep+"/m_go/"+c[loop])==False:
             randomn=randrange(0,len(c))
             shutil.copy(rep+"/rom/data/MONSTER/m_ground/"+c[randomn],rep+"/m_go/"+c[loop])
+
     
     for loop in range(len(a)):
-        print("4"+total+str(loop)+"/"+str(len(a)))
+        print("4"+total+str(loop)+"/"+str(len(c)))
+        if os.path.exists(rep+'/porrandom/'+a[loop])==False:
+            
+            randomn=randrange(0,len(c))
+            b=os.listdir(rep+"/portraits/"+a[loop])
+            os.mkdir(rep+"/porrandom/"+a[loop])
+            for loop2 in range(len(b)):
+                try:
+                    shutil.copy(rep+"/portraits/"+a[randomn]+"/"+b[loop2],rep+"/porrandom/"+a[loop]+"/"+b[loop2])
+                except:
+                    pass
+                          
+    
+    for loop in range(len(a)):
+        print("5"+total+str(loop)+"/"+str(len(a)))
         b=os.listdir(rep+"/portraits/"+a[loop])
         for loop2 in range(len(b)):
             os.remove(rep+"/portraits/"+a[loop]+'/'+b[loop2])
@@ -172,8 +187,9 @@ def overworld():
 
     a=os.listdir(rep+'/porrandom')
     os.mkdir(rep+"/portraits")
+    
     for loop in range(len(a)):
-        print("5"+total+str(loop)+"/"+str(len(a)))
+        print("6"+total+str(loop)+"/"+str(len(a)))
         b=os.listdir(rep+"/porrandom/"+a[loop])
         os.mkdir(rep+"/portraits/"+a[loop])
         for loop2 in range(len(b)):
@@ -192,10 +208,10 @@ def overworld():
 
     c=os.listdir(rep+'/m_go')
     for loop in range(len(c)):
-        print("6"+total+str(loop)+"/"+str(len(c)))
+        print("7"+total+str(loop)+"/"+str(len(c)))
         os.remove(rep+"/rom/data/MONSTER/m_ground/"+c[loop])
     for loop in range(len(c)):
-        print("7"+total+str(loop)+"/"+str(len(c)))
+        print("8"+total+str(loop)+"/"+str(len(c)))
         shutil.copy(rep+"/m_go/"+c[loop],rep+"/rom/data/MONSTER/m_ground/"+c[loop])
 
 
