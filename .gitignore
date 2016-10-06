@@ -1,4 +1,5 @@
 *.nds
+*.pyc
 
 ppmd_statsutil.*
 *.xml
@@ -13,6 +14,7 @@ ran/portraits/
 ran/porrandom/
 ran/m_go/
 ran/romus/
+ran/out_bgm
 ran/clean.bat
 log.txt
 
