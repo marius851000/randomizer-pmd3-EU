@@ -5,8 +5,6 @@ rmdir /Q /S "./portraits"
 rmdir /Q /S "./porrandom"
 
 
-clean.bat
-
 del "romus"
 mkdir "romus"
 echo "extraction de la rom US"
